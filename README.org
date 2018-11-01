@@ -2,5 +2,9 @@
 
 An attempt at Fizzbuzz in Common Lisp, for learning purposes.
 ** Usage
+Basic common lisp stuff: http://www.gigamonkeys.com/book/
 
+See that guy's info on quicklisp projects: https://xach.livejournal.com/278047.html
+
+Also : http://articulate-lisp.com/
 ** Installation
