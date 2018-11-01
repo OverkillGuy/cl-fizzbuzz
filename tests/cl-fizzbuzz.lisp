@@ -6,8 +6,10 @@
 
 ;; NOTE: To run this test file, execute `(asdf:test-system :cl-fizzbuzz)' in your Lisp.
 
-(plan nil)
+(plan 2)
 
 ;; blah blah blah.
+(is (fizzbuzz 0) nil)
+(is (fizzbuzz 0) 1)
 
 (finalize)
