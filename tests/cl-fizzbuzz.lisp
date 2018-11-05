@@ -6,10 +6,29 @@
 
 ;; NOTE: To run this test file, execute `(asdf:test-system :cl-fizzbuzz)' in your Lisp.
 
-(plan 2)
+(defvar *fizzbuzz-20-samples*
+  (list "1"
+	"2"
+	"fizz"
+	"4"
+	"buzz"
+	"fizz"
+	"7"
+	"8"
+	"fizz"
+	"buzz"
+	"11"
+	"fizz"
+	"13"
+	"14"
+	"fizzbuzz"
+	"16"
+	"17"
+	"fizz"
+	"19"
+	"buzz"))
+(plan 1)
 
-;; blah blah blah.
-(is (fizzbuzz 0) nil)
-(is (fizzbuzz 0) 1)
+(is (cl-fizzbuzz:fizzbuzz 20) *fizzbuzz-20-samples*)
 
 (finalize)
