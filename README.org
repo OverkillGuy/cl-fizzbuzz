@@ -1,10 +1,17 @@
 * Cl-Fizzbuzz 
 
 An attempt at Fizzbuzz in Common Lisp, for learning purposes.
-** Usage
+
+** COMMENT Common lisp learning resources
 Basic common lisp stuff: http://www.gigamonkeys.com/book/
 
 See that guy's info on quicklisp projects: https://xach.livejournal.com/278047.html
 
 Also : http://articulate-lisp.com/
+** Usage
+
+Run =make test= to check if it works, otherwise use =quickload= to load
+the fizzbuzz function
 ** Installation
+
+See the given Makefile
